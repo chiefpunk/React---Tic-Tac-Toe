@@ -1,0 +1,45 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 50px 0;
+}
+
+#game {
+    text-align: center;
+    
+}
+
+#game:after{
+    clear: both;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    font-size: 60px!important;
+    font-weight: 500;
+}
+
+.square-X{
+    color: greenyellow!important;
+}
+
+.square-O{
+    color: yellow!important;
+}
+#game {
+    width: 60%;
+}
+
+#game-info{
+    width: 40%;
+}
